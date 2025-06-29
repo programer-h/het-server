@@ -1,0 +1,24 @@
+{
+  "name": "het-server",
+  "version": "1.0.0",
+  "description": "Real-time online users backend for HET wallet app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "socket.io",
+    "real-time",
+    "online-users",
+    "wallet"
+  ],
+  "author": "HET App",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "^4.7.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 
